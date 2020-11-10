@@ -4,6 +4,7 @@ import {
   FooterSocialWrapper,
   FooterWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 
 export const Footer = () => {
@@ -59,7 +60,7 @@ export const Footer = () => {
             <img src={data.instagram.publicURL} alt="Instagram Logo" />
           </a>
         </FooterSocialIcons>
-        <p>2020 © Dursun Eryılmaz. All rigths reserved.</p>
+        <P size="xsmall" color="dark3">2020 © Dursun Eryılmaz. All rigths reserved.</P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
