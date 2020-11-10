@@ -1,11 +1,11 @@
-import React from "react"
-import {createGlobalStyle, ThemeProvider } from "styled-components"
-import Theme from "./src/themes/theme"
+import React from "react";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
+import Theme from "./src/themes/theme";
 
 const GlobalStyles = createGlobalStyle`
     *{
         box-sizing: border-box;
-        marging: 0;
+        margin: 0;
         padding: 0;
     }
 
@@ -16,10 +16,10 @@ const GlobalStyles = createGlobalStyle`
     }
 
 `
-export const wrapRootElement = ({ element }) => (
-    <ThemeProvider theme={Theme}>
-        <GlobalStyles/>
-        {element} 
-    </ThemeProvider>
-)
 
+export const wrapRootElement = ({ element }) => (
+  <ThemeProvider theme={Theme}>
+    <GlobalStyles />
+    {element}
+  </ThemeProvider>
+);
