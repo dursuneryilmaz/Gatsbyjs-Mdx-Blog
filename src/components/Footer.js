@@ -1,8 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import {
+  FooterSocialWrapper,
   FooterWrapper,
-  FooterScialWrapper,
   FooterSocialIcons,
 } from "../elements"
 
@@ -25,7 +25,7 @@ export const Footer = () => {
   `)
   return (
     <FooterWrapper>
-      <FooterScialWrapper>
+      <FooterSocialWrapper>
         <FooterSocialIcons>
           <a
             href="https://facebook.com"
@@ -59,10 +59,8 @@ export const Footer = () => {
             <img src={data.instagram.publicURL} alt="Instagram Logo" />
           </a>
         </FooterSocialIcons>
-        <p>
-          2020 © Dursun Eryılmaz. All rigths reserved.
-        </p>
-      </FooterScialWrapper>
+        <p>2020 © Dursun Eryılmaz. All rigths reserved.</p>
+      </FooterSocialWrapper>
     </FooterWrapper>
   )
 }
