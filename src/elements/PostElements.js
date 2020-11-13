@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const PostWrapper = styled.main`
   grid-column: 4 / span 8;
@@ -158,4 +158,4 @@ export const PostWrapper = styled.main`
     padding: ${props =>
       `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
   }
-`;
+`

@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "gatsby";
+import React from "react"
+import styled from "styled-components"
+import { Link } from "gatsby"
 
 export const ButtonWrapper = styled(props => <Link {...props} />)`
   background-color: ${props => props.theme.colors.main1};
@@ -18,4 +18,4 @@ export const ButtonWrapper = styled(props => <Link {...props} />)`
   &:focus {
     filter: brightness(110%);
   }
-`;
+`

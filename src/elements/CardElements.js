@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const CardWrapper = styled.div`
   margin-top: 2rem;
@@ -6,4 +6,4 @@ export const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
+`

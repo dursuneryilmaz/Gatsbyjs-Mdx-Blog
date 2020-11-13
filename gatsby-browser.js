@@ -1,8 +1,7 @@
-import React from "react";
-import { createGlobalStyle, ThemeProvider } from "styled-components";
-import { MDXProvider } from "@mdx-js/react";
-import Theme from "./src/themes/theme";
-import { Table } from "./src/components";
+import React from "react"
+import { createGlobalStyle, ThemeProvider } from "styled-components"
+import { MDXProvider } from "@mdx-js/react"
+import Theme from "./src/themes/theme"
 
 const GlobalStyles = createGlobalStyle`
     *{
@@ -17,11 +16,11 @@ const GlobalStyles = createGlobalStyle`
         background-color:  ${props => props.theme.colors.light1};
     }
 
-`;
+`
 
 const components = {
   table: Table,
-};
+}
 
 export const wrapRootElement = ({ element }) => (
   <MDXProvider components={components}>
@@ -30,4 +29,4 @@ export const wrapRootElement = ({ element }) => (
       {element}
     </ThemeProvider>
   </MDXProvider>
-);
+)

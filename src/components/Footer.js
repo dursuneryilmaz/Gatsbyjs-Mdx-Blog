@@ -60,7 +60,9 @@ export const Footer = () => {
             <img src={data.instagram.publicURL} alt="Instagram Logo" />
           </a>
         </FooterSocialIcons>
-        <P size="xsmall" color="dark3">2020 © Dursun Eryılmaz. All rigths reserved.</P>
+        <P size="xsmall" color="dark3">
+          2020 © Dursun Eryılmaz. All rigths reserved.
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )

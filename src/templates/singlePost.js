@@ -1,11 +1,11 @@
-import React from "react";
-import { graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
-import { H1 } from "../elements";
-import { Container, Post, FeatureImage } from "../components";
+import React from "react"
+import { graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { H1 } from "../elements"
+import { Container, Post, FeatureImage } from "../components"
 
 const singlePost = ({ data }) => {
-  const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fixed;
+  const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fixed
 
   return (
     <Container>
@@ -15,10 +15,10 @@ const singlePost = ({ data }) => {
         <MDXRenderer>{data.mdx.body}</MDXRenderer>
       </Post>
     </Container>
-  );
-};
+  )
+}
 
-export default singlePost;
+export default singlePost
 
 export const pageQuery = graphql`
   query SinglePostQuery($id: String!) {
@@ -39,4 +39,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

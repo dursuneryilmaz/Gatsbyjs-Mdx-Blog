@@ -38,8 +38,7 @@ exports.createPages = async function ({ graphql, actions }) {
     actions.createPage({
       path: slug,
       component: require.resolve(`./src/templates/singlePost.js`),
-      context:{id},
-
+      context: { id },
     })
   })
 }
