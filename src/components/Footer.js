@@ -45,7 +45,7 @@ export const Footer = () => {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/dursuneryilmaz"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ export const Footer = () => {
           </a>
 
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/dursun.eryilmaz"
             target="_blank"
             rel="noopener noreferrer"
           >
