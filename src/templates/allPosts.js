@@ -24,11 +24,15 @@ const allPosts = ({ pageContext, data }) => {
       <FeatureImage />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          dummy text text.
+          Dursun ERYILMAZ
         </H1>
         <P color="dark2" textAlign="center">
-          sdfsd sdf sdf s dsfsd s df sdff ds fsdf fdfdfdfs swerwer w wer wertwr
-          sdf s sd gsdf sd fsd sd sd
+          Born on 1 February 1997.Talented Junior Software Engineer adept at
+          working with customers, team members and project leaders to accomplish
+          software engineering and updating tasks according to timelines. Solid
+          understanding of full development life cycle. Skilled working with
+          wide range of frontand back-end technologies to produce and evaluate
+          code.
         </P>
         {posts.map(post => (
           <ContentCard
